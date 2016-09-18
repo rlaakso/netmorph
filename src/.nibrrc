@@ -1,0 +1,81 @@
+# Default simulation settings for use with netmorph (3D simulation)
+# Randal A. Koene, 20080204
+
+# Specified random seed for replicable simulations:
+direction_model=segment_history_tension;
+veeranglemin=0.0;
+veeranglemax=0.75;
+dirhistory_selection=none;
+general_rtdhs_probability=0.05;
+general_rtdhs_minfraction=0.25;
+general_rtdhs_maxfraction=1.0;
+
+# Synapse formation model specification:
+candidate_synapses=false;
+
+# Output requested:
+sample_dt=2160;
+
+outattr_show_progress=true;
+outattr_make_full_Txt=false;
+outattr_track_synaptogenesis=false;
+outattr_track_nodegenesis=false;
+statsattr_collect_statistics=true;
+outattr_show_stats=true;
+warnings_on=true;
+outattr_show_figure=true;
+
+figattr_use_color=true;
+CT_background=0x000000;
+CT_neuron_principal=0x0000FF;
+CT_connection_excitatory=0xFFFFFF;
+CT_connection_inhibitory=0xFF0000;
+CT_synapses=0xFFFFFF;
+CT_dendrites=0x00FF00;
+CT_axon_excitatory=0xFFFF00;
+CT_axon_inhibitory=0xFF0000;
+CT_partition_border=0x3F3F3F;
+CT_partition_overfull=0xFFFFFF;
+CT_partition_evaluated0xFFFF3F;
+CT_progress_text=0x7F7FFF;
+CT_AMPAR=0xFFFFFF;
+CT_NMDAR=0xFFFF00;
+CT_GABAR=0xFF7F7F;
+figattr_tsupd_visibly=true;
+figattr_fill_somas=true;
+figattr_neurons=true;
+figattr_connections=false;
+figattr_presynaptic=true;
+figattr_postsynaptic=true;
+figattr_synapses=true;
+figattr_partitions=false;
+figattr_show_scale=true;
+figattr_make_full_Fig=true;
+figattr_make_zoom_Fig=false;
+figattr_make_connections_Fig=false;
+figattr_make_abstract_Fig=false;
+figattr_make_neurons_Figs=false;
+figattr_show_axis_arrows=true;
+figattr_progress=text;
+
+figuresequence=true;
+sequence_zoom_centerX=0;
+sequence_zoom_centerY=0;
+sequence_zoom_centerZ=0;
+sequence_zoom_disttoedge=200.0;
+figattr_fibres_nobox=false;
+figattr_box_fibre_independently=true;
+combinesequence=true;
+combinetype=gif;
+autorotatesequence=true;
+ROT_x=0;
+ROT_y=0;
+ROT_z=0;
+ROT_interval_x=1.5;
+ROT_interval_y=9.42;
+ROT_interval_z=0;
+combinemagnification=0.8;
+
+# Note: This default script was adapted from
+# ~/doc/tex/IF-2007/IF-2007.network-excerpt.rotating.clp.
+
